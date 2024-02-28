@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 240px;
+  min-height: 54px;
+  /* padding: 8px 12px; */
+  background: white;
+  border-radius: 6px;
+  outline: 0;
+  color: rgb(107 114 128);
+  z-index: 90;
+  box-shadow: 0 0 4px rgb(98 127 172 / 20%);
+  transition-property: transform, visibility, opacity;
+}
